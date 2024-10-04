@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "541533617111",
+    "firebase_url": "https://database-89d71-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "database-89d71",
+    "storage_bucket": "database-89d71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541533617111:android:2da24923a072208a3fe992",
+        "android_client_info": {
+          "package_name": "com.example.nyumbakumitool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6BfmSZW5Drow1FVw3GL78-3W9qnBW1Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

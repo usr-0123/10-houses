@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_reports">
+
+    <fragment
+      android:id="@+id/nav_reports"
+        android:name="com.example.nyumbakumitool.ui.Reports.ReportsFragment"
+        android:label="@string/reports"
+        tools:layout="@layout/fragment_reports" />
+
+    <fragment
+        android:id="@+id/nav_chats"
+        android:name="com.example.nyumbakumitool.ui.Chats.ChatsFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_chats"/>
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.example.nyumbakumitool.ui.Users.UsersFragment"
+        android:label="@string/users"
+        tools:layout="@layout/fragment_users"/>
+
+    <fragment
+        android:id="@+id/nav_groups"
+        android:name="com.example.nyumbakumitool.ui.Groups.GroupsFragment"
+        android:label="@string/groups"
+        tools:layout="@layout/fragment_groups"/>
+
+</navigation>
